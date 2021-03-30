@@ -91,7 +91,7 @@ header ul li a {
 
 header ul li a:hover {
     /* border-radius: 5 px 20px; */
-    background: #4900005d;
+    background: #4900000c;
     color: white;
     text-decoration: none;
 }
@@ -420,7 +420,7 @@ header ul li a:hover {
    
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 400px;
+    height: 500px;
 
     display: flex;
     margin-bottom: 180px;
@@ -504,12 +504,6 @@ header ul li a:hover {
     position: absolute;
 }
 
-.dep-pessoa {
-    width: 150px;
-    height: 150px;
-    margin-top: -60px;
-    text-align: center;
-}
 
 .dep h3 {
     text-align: center;
@@ -525,3 +519,60 @@ header ul li a:hover {
     text-align: center;
     margin-bottom: 50px;
 }
+
+
+
+.dep-pessoa {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5 ;
+    margin-top: -70px;
+    margin-left: -15px;
+    text-align: center;
+    display: block;
+
+}
+
+.dep:nth-child(1) .dep-pessoa{
+    filter: grayscale(5) contrast(1);
+}
+
+.dep:nth-child(1) .dep-pessoa:hover {
+    filter: grayscale(0) contrast(9);
+    opacity: 1;
+}
+
+
+
+.dep:nth-child(2) .dep-pessoa{
+    filter: grayscale(5) contrast(1);
+}
+
+.dep:nth-child(2) .dep-pessoa:hover {
+    filter: grayscale(0) contrast(9);
+    opacity: 1;
+}
+
+
+
+.dep:nth-child(3) .dep-pessoa{
+    filter: grayscale(5) contrast(1);
+}
+
+.dep:nth-child(3) .dep-pessoa:hover {
+    filter: grayscale(0) contrast(9);
+    opacity: 1;
+}
+
+
+
+.dep:nth-child(4) .dep-pessoa{
+    filter: grayscale(5) contrast(1);
+}
+
+.dep:nth-child(4) .dep-pessoa:hover {
+    filter: grayscale(0) contrast(9);
+    opacity: 1;
+}
+
+
