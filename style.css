@@ -23,6 +23,10 @@ body {
     animation: animate_background 5s ease infinite alternate;
 }
 
+h1 {
+    font-family: 'Crimson Pro', serif;
+}
+
 @keyframes animate_background {
     0% {
         background-position: 0% 0%;
