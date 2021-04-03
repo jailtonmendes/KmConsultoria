@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <title>KM Consultoria</title>
 </head>
 <body>
@@ -142,7 +144,7 @@
 
 
 
-        <h1 class="dep-h1">Depoimentos</h1>
+        <!-- <h1 class="dep-h1">Depoimentos</h1>
         <class class="depoimentos">
             
             <cad class="dep">
@@ -178,13 +180,151 @@
             </cad>
 
 
-        </class>
+        </class> -->
 
+        <div class="depoimentos">
+        <div class="testimonials">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>Acompanhamento bastante profissional, excelência no atendimento 
+                                       e clareza nos pontos de melhorias, estou muito feliz pelo trabalho, 
+                                       melhorei muito minha Empresa. Gratidão!🙏 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/eduardoCosta.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Eduardo Costa<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>Profissional top! Experiente, dedicada, atenciosa. Super recomendo! 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/crisMacedo.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Cris Macedo<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>Atendeu minha necessidade! Indico de olhos fechados!!! Excelente profissional 👏🏼👏🏼 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/mirellyAtanario.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Mirelly Atanázio<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>A experiência com a KM Consultoria foi incrível! Aprender sobre nossos pontos fortes e fracos 
+                                       são importantíssimos para redirecionarmos nossa carreira e alcançarmos novos postos. Só gratidão! 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/kessJones.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Kess Jones<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>Super indico essa excelente profissional. Uma pessoa maravilhosa! 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/elisangelaJunqueira.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Elisangela Junqueira<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer">
+                               <div class="content">
+                                   <p>Um talento lindo 😍
+                                    Quem contratar vai se maravilhar com o profissionalismo 🙏 
+                                    </p>
+                                       <div class="imgBx">
+                                           <img class="avatar" src="./img/comentarios/aliceMaria.png" alt="">
+                                       </div>
+                                       <div class="details">
+                                           <h2>Alice Maria<br><span>⭐⭐⭐⭐⭐</h2>
+                                       </div>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        
         <div class="contato" id="contato">
 
-        </div>
+        
+    </div>
 
     </main>
     
 </body>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+
 </html>
+
