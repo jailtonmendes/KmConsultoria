@@ -494,12 +494,13 @@ header ul li a:hover {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    
     display: flex;
     
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: #333;
+    background: linear-gradient(#afad3d, #F1EBED );
 }
 
 .dep {
@@ -637,12 +638,13 @@ header ul li a:hover {
     width: 100%;
     min-height: 400px;
     margin: 0 auto;
-    background: #ada4a8;
-    padding: 60px 40px;
+    /* background: #ada4a8; */
+
+    padding: 38px 14px;
     text-align: center;
     overflow: hidden;
 
-    border-bottom: solid 1px #dce92c;
+    border-bottom: solid 2px #96687a;
 
 }
 
@@ -659,11 +661,21 @@ header ul li a:hover {
 }
 
 .testimonials .card .content p {
+    margin-top: 15px;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #490000;
+    transition: 0.5s;
+
 }
+
+
+.testimonials .card:hover .content p {
+   color: #fff;
+   transition: 0.5s;
+}
+
 
 .testimonials .card .content .imgBx {
     width: 100px;
@@ -675,10 +687,6 @@ header ul li a:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.testimonials .card .content h2 {
-    font-size: 18px;
-    color: #fff;
-}
 
 .testimonials .card .content h2  {
     color: #490000;
@@ -692,6 +700,3 @@ header ul li a:hover {
     transition: 0.5s;
 }
 
-.testimonials .card .content span {
-    ⭐⭐⭐⭐⭐
-}
