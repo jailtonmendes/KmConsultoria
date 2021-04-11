@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/BorboletaSemFundo.png" type="image/x-icon"/> 
+    <link rel="icon" href="img/BorboletaSemFundo.png" type="image/x-icon" />
 
     <!-- Fonte Crimson Pro -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,14 +16,16 @@
 
     <title>KM Consultoria</title>
 </head>
+
 <body>
-    
+
     <header>
-        
+
         <ul>
             <!-- <li><a href="#">PERFIL</a></li> -->
             <li><a href="#servico">SERVIÇOS</a></li>
             <li><a href="#quemsomos">QUEM SOMOS</a></li>
+            <li><a href="#depoimentos">DEPOIMENTOS</a></li>
             <li><a href="#contato">CONTATO</a></li>
         </ul>
     </header>
@@ -32,24 +35,31 @@
     <main>
         <div class="perfil">
             <img class="img_perfil" src="./img/perfil.jpeg" alt="Imagem de perfil">
-            <h3>Olá, Me chamo Karla Macedo.<br>
-                É um enorme prazer falar um pouquinho sobre meu perfil profissional para você.
+            <h3>Olá!<br>
+                É um enorme prazer falar um pouco sobre meu perfil profissional para você..
             </h3>
             <h4>
-            <br>
-                Sou idealizadora da KM Consultoria,  Assistente Social Master Analista Comportamental, Especialista em Gestão Hospitalar,  Especialista em Saúde Mental, Especialista em Psicologia Organizacional e do Trabalho com 20 anos de experiência no mercado de trabalho. 
-                Atuei nos segmentos de tecnologia, área comercial, hotelaria, recrutamento e seleção, treinamento e desenvolvimento, orientação profissional, serviço social em área corporativa, hospitalar e atenção primária.
+                <br>
+                Sou Karla Macedo,
+                Idealizadora da KM Consultoria,
+                Master Analista Comportamental pelo Instituto ILG, Assistente Social pela UNICAP, Especialista em Saúde
+                Mental e Gestão da Assistência Psicossocial pela IBRA, Especialista em Gestão Hospitalar pela FAMEC,
+                Especialista em Psicologia Organizacional pela ESUDA, com 20 anos de experiência no mercado de trabalho.
+                Atuei nos segmentos de tecnologia, área comercial, hotelaria, R&S, T&D, orientação profissional, serviço
+                social em área corporativa, hospitalar e atenção primária.
+
             </h4>
+            <h3>Sejam muito bem vindos(as)!</h3>
         </div>
         <img class="linha" src="./img/linha.png" alt="">
 
 
 
-        
-        <h1 class="servicos">Nossos Serviços</h1>   
 
-        <div class="container" id="servico"> 
-            
+        <h1 class="servicos">Nossos Serviços</h1>
+
+        <div class="container" id="servico">
+
 
             <div class="card">
                 <span></span>
@@ -57,51 +67,39 @@
                 <span></span>
                 <span></span>
                 <div class="content">
-                    <h2><img class="teste" src="./img/perfil.jpeg" alt=""></h2>
+                    <!-- <h2><img class="teste" src="./img/perfil.jpeg" alt=""></h2> -->
                     <h3>Orientação Profissional</h3>
                     <p></p>
-                    <!-- <a href="#">Read More</a> -->
+                    <a href="#" onclick="Modal.open()">Leia Mais</a>
                 </div>
             </div>
-    
+
+
             <div class="card">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <div class="content">
-                    <h2><img class="img_card" src="./img/transicao.jpg" alt=""></h2>
+                    <!-- <h2><img class="img_card" src="./img/transicao.jpg" alt=""></h2> -->
                     <h3>Transição de Carreira</h3>
                     <p></p>
-                    <!-- <a href="#">Read More</a> -->
+                    <a href="#" onclick="Model2.opentwo()">Leia Mais</a>
                 </div>
             </div>
-    
+
             <div class="card">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <div class="content">
-                    <h2><img class="img_card" src="./img/avaliacao_curricular.png" alt=""></h2>
+                    <!-- <h2><img class="img_card" src="./img/avaliacao_curricular.png" alt=""></h2> -->
                     <h3>Reformulaçao de Currículos</h3>
                     <p></p>
-                    <!-- <a href="#">Read More</a> -->
+                    <a href="#" onclick="Model3.openthree()">Leia Mais</a>
                 </div>
             </div>
-
-            <!-- <div class="card">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                    <h2>04</h2>
-                    <h3>T&D</h3>
-                    <p></p>
-                    <a href="#">Read More</a>
-                </div>
-            </div> -->
 
             <div class="card">
                 <span></span>
@@ -109,10 +107,11 @@
                 <span></span>
                 <span></span>
                 <div class="content">
-                    <h2><img class="teste" src="./img/perfil.jpeg" alt=""></h2>
+                    <!-- <h2><img class="teste" src="./img/perfil.jpeg" alt=""></h2> -->
                     <h3>Consultoria</h3>
+                    <br>
                     <p></p>
-                    <!-- <a href="#">Read More</a> -->
+                    <a href="#" onclick="Model4.openfour()">Leia Mais</a>
                 </div>
             </div>
 
@@ -123,23 +122,24 @@
 
 
             <div class="text">
-                
+
                 <h1>Quem Somos?</h1>
-                <p>Somos uma Consultoria especializada no<br> desenvolvimento humano, 
-                    buscando inovação e atualização no que existe de melhor para oferecer 
-                    ao nosso cliente. A KM Consultoria surgiu em 2014, através de atividades 
-                    voluntárias. 
+                <p>Somos uma Consultoria especializada no<br> desenvolvimento humano,
+                    buscando inovação e atualização no que existe de melhor para oferecer
+                    ao nosso cliente. A KM Consultoria surgiu em 2014, através de atividades
+                    voluntárias.
                     <br>
                     <br>
                     <br>
                     <br>
-                    Para nós, mais importante do que o retorno financeiro, 
-                    é a diferença que fazemos na vida de cada cliente que vem para KM.</p>
+                    Para nós, mais importante do que o retorno financeiro,
+                    é a diferença que fazemos na vida de cada cliente que vem para KM.
+                </p>
             </div>
 
 
-            </div>          
-            
+        </div>
+
         </div>
 
 
@@ -181,150 +181,216 @@
 
 
         </class> -->
-        <h1 class="servicos">Depoimentos</h1>  
+        <h1 class="servicos" id="depoimentos">Depoimentos</h1>
         <div class="depoimentos">
-        <div class="testimonials">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>Acompanhamento bastante profissional, excelência no atendimento 
-                                       e clareza nos pontos de melhorias, estou muito feliz pelo trabalho, 
-                                       melhorei muito minha Empresa. Gratidão!🙏 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/eduardoCosta.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Eduardo Costa<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+            <div class="testimonials">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>Acompanhamento bastante profissional, excelência no atendimento
+                                            e clareza nos pontos de melhorias, estou muito feliz pelo trabalho,
+                                            melhorei muito minha Empresa. Gratidão!🙏
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/eduardoCosta.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Eduardo Costa<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>Profissional top!<br> Experiente, dedicada, atenciosa. <br>Super recomendo! 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/crisMacedo.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Cris Macedo<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>Profissional top!<br> Experiente, dedicada, atenciosa. <br>Super recomendo!
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/crisMacedo.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Cris Macedo<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>Atendeu minha necessidade!<br>Indico de olhos fechados!!!<br> Excelente profissional 👏🏼👏🏼 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/mirellyAtanario.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Mirelly Atanázio<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>Atendeu minha necessidade!<br>Indico de olhos fechados!!!<br> Excelente
+                                            profissional 👏🏼👏🏼
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/mirellyAtanario.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Mirelly Atanázio<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>A experiência com a KM Consultoria foi incrível! Aprender sobre nossos pontos fortes e fracos 
-                                       são importantíssimos para redirecionarmos nossa carreira e alcançarmos novos postos. Só gratidão! 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/kessJones.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Kess Jones<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>A experiência com a KM Consultoria foi incrível! Aprender sobre nossos pontos
+                                            fortes e fracos
+                                            são importantíssimos para redirecionarmos nossa carreira e alcançarmos novos
+                                            postos. Só gratidão!
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/kessJones.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Kess Jones<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>Super indico<br> essa excelente profissional. <br>Uma pessoa maravilhosa! 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/elisangelaJunqueira.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Elisangela Junqueira<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>Super indico<br> essa excelente profissional. <br>Uma pessoa maravilhosa!
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/elisangelaJunqueira.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Elisangela Junqueira<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="layer">
-                               <div class="content">
-                                   <p>Um talento lindo 😍<br>
-                                    Quem contratar vai se maravilhar<br> com o profissionalismo 🙏 
-                                    </p>
-                                       <div class="imgBx">
-                                           <img class="avatar" src="./img/comentarios/aliceMaria.png" alt="">
-                                       </div>
-                                       <div class="details">
-                                           <h2>Alice Maria<br><span>⭐⭐⭐⭐⭐</h2>
-                                       </div>
-                               </div> 
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer">
+                                    <div class="content">
+                                        <p>Um talento lindo 😍<br>
+                                            Quem contratar vai se maravilhar<br> com o profissionalismo 🙏
+                                        </p>
+                                        <div class="imgBx">
+                                            <img class="avatar" src="./img/comentarios/aliceMaria.png" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Alice Maria<br><span>⭐⭐⭐⭐⭐</h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
 
 
-        
+
         <div class="contato" id="contato">
 
-        
-    </div>
+
+        </div>
 
     </main>
-    
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <h2>Orientação Profissional:</h2>
+            <p class="text-modal">
+                Para realização da orientação profissional buscamos entender melhor a realidade social,
+                famíliar e profissional do cliente, através de uma escuta qualificada, realizada por atendimento
+                virtual através de vídeo chamada, ou ligação telefônica a escolha do cliente.
+                Um dos principais beneficios que a orientação profissional pode proporcioar é o
+                autoconhecimento, pois conhecer bem a si mesmo ( a), a forma como agimos e reagimos em
+                determinadas situações, bem como nos comunicamos, é um ponto muito importante, sendo o
+                primeiro passo para uma escolha bem-sucedida em qualquer área.
+                Após obtermos os dados necessários referente a necessidade de cada cliente, realizamos o
+                mapeamento comportamental, onde utilizamos a aplicação de Assessments + DISC com
+                feedback, que são ferramentas consolidadas tanto na ciência como no mundo corporativo, a
+                qual nos ajudam a identificar o perfil comportamental, pontos fortes e de desenvolvimento de
+                cada cliente, visando melhoria da performance profissional.
+            </p>
+            <a class="fechar-modal" href="#" onclick="Modal.close()">Fechar</a>
+        </div>
+    </div>
+
+    <div class="modal-two">
+        <div class="modal">
+            <h2>Transição de Carreira:</h2>
+            <p class="text-modal">
+                Quando planejada, a transição de carreira é um processo que pode alavancar a vida
+                profissional, levando ao sucesso de sua carreira ou área escolhida mas para isso, é necessário
+                que cada escolha, cada passo dado, faça parte de um plano organizado e com objetivos
+                estratégicos.
+                Com o acompanhamento profissional, orientação, e análise de perfil corretos, a transição de
+                carreira proporciona ao cliente uma reavaliação de sua trajetória de vida, levando em
+                consideração seus sonhos e projetos para o futuro.
+
+                Após obtermos os dados necessários referente a necessidade de cada cliente, realizamos o
+                mapeamento comportamental, onde utilizamos a aplicação de Assessments + DISC com
+                feedback, que são ferramentas consolidadas tanto na ciência como no mundo corporativo, a
+
+                qual nos ajudam a identificar o perfil comportamental, pontos fortes e de desenvolvimento de
+                cada cliente, visando melhoria da performance profissional.
+            </p>
+            <a class="fechar-modal" href="#" onclick="Model2.closetwo()">Fechar</a>
+        </div>
+    </div>
+
+    <div class="modal-three">
+        <div class="modal">
+            <h2>Reformulação de Curriculo:</h2>
+            <p class="text-modal">
+                O currículo é a porta de entrada para oportunidade tão desejada no mercado de trabalho e, se
+                bem estruturado, traz destaque, tornando-se uma potencial ferramenta no processo seletivo.
+                Deseja melhorar a estética do seu currículo e destacá-lo dos demais? A KM Consultoria pode
+                te ajudar! Vem conhecer os nossos serviços.
+                Para análise de currículo realizamos os seguintes serviços: Verificação da estética do currículo;
+                Reformulação; Orientação referente a formulação do currículo, Dicas de recrutamento e
+                seleção;
+                Orientação para entrevista de emprego; Simulação de entrevista de emprego; Feedback pós
+                simulação de entrevista.
+            </p>
+            <a class="fechar-modal" href="#" onclick="Model3.closethree()">Fechar</a>
+        </div>
+    </div>
+
+    <div class="modal-four">
+        <div class="modal">
+            <h2>Consultoria:</h2>
+            <p class="text-modal">
+                O currículo é a porta de entrada para oportunidade tão desejada no mercado de trabalho e, se
+                bem estruturado, traz destaque, tornando-se uma potencial ferramenta no processo seletivo.
+                Deseja melhorar a estética do seu currículo e destacá-lo dos demais? A KM Consultoria pode
+                te ajudar! Vem conhecer os nossos serviços.
+                Para análise de currículo realizamos os seguintes serviços: Verificação da estética do currículo;
+                Reformulação; Orientação referente a formulação do currículo, Dicas de recrutamento e
+                seleção;
+                Orientação para entrevista de emprego; Simulação de entrevista de emprego; Feedback pós
+                simulação de entrevista.
+            </p>
+            <a class="fechar-modal" href="#" onclick="Model4.closefour()">Fechar</a>
+        </div>
+    </div>
+
 </body>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 0,
-                depth: 0,
-                modifier: 1,
-                slideShadows: true,
-            },
-            loop: true,
-        });
-    </script>
 
 </html>
 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
