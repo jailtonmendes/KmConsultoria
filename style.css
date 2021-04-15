@@ -3,7 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
+    
 }
+
+/*Mudar Barra cor de Rolagem*/
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    }
+ ::-webkit-scrollbar-track {
+    background: #490000;
+        
+    }
+
+::-webkit-scrollbar-thumb {
+    background:antiquewhite;
+   }
+
 
 .logo {
     
@@ -11,7 +28,6 @@
     margin-top: -50px;
     margin-left: 50px; 
     margin-bottom: 50px;
-    
 }
 
 
@@ -119,10 +135,10 @@ header ul li a:hover {
 }
 
 .img_perfil {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: solid 2px red;
+    border: solid 2px #490000;
 
     display: block;
     margin: 0 auto;
@@ -131,7 +147,7 @@ header ul li a:hover {
 .perfil h3 {
     text-align: center;
 
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
     font-family: 'Crimson Pro', serif;
@@ -139,14 +155,20 @@ header ul li a:hover {
     font-weight: 500;
 }
 
-.perfil h4 {
-   text-align: center;
+.bem-vindos {
+    font-size: 33px !important;
+    color: #490000;
+    margin-bottom: 10%;
+}
 
-   width: 75%;
-   margin: 0 auto;
-   font-family: 'Crimson Pro', serif;
-   font-size: 1.5em;
-   font-weight: 500;
+.perfil h4 {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: table-row;
 
 }
 
@@ -154,7 +176,7 @@ header ul li a:hover {
     width: 100% ;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     display: block;
 }
 
@@ -494,7 +516,7 @@ header ul li a:hover {
     height: 600px;
     
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
     
     display: flex;
