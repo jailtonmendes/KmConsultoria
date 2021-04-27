@@ -13,12 +13,12 @@
     height: 10px;
     }
  ::-webkit-scrollbar-track {
-    background: #490000;
+    /* background: #ffffff; */
         
     }
 
 ::-webkit-scrollbar-thumb {
-    background:antiquewhite;
+    background:#96687a;
    }
 
 
@@ -834,7 +834,8 @@ footer p {
 }
 
 .text-modal {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-family: 'Crimson Pro', serif;
 }
 
 .fechar-modal {
@@ -854,8 +855,17 @@ footer p {
 
 @media(max-width:400px) {
    header {
-       display:none ;
+       /* display:none ; */
    }
+   header ul {
+       display: block;
+   }
+
+   header ul li {
+    padding-bottom: 25px;
+    }
+
+
 
    .logo {
        margin: 0 auto;
