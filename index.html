@@ -25,20 +25,23 @@
 
 <body>
 
-    <div class="menu-mobile active">
-        <li><a href="#"><i class="fa fa-bars"></i></a></li>
+    <div class="menu-mobile">
+        <li><a href="#" ><i class="fa fa-bars"></i></a></li>
     </div>
-    
-    <header>
 
-        <ul>
+    
+    <header class="menu-mob">
+
+        <ul> 
             <!-- <li><a href="#">PERFIL</a></li> -->
-            <li><a href="#servico">SERVIÇOS</a></li>
-            <li><a href="#quemsomos">QUEM SOMOS</a></li>
-            <li><a href="#depoimentos">DEPOIMENTOS</a></li>
-            <li><a href="#contato">CONTATO</a></li>
+            <li ><a href="#servico" onclick="Menu.FecharMenu()">SERVIÇOS</a></li>
+            <li><a href="#quemsomos" onclick="Menu.FecharMenu()">QUEM SOMOS</a></li>
+            <li><a href="#depoimentos" onclick="Menu.FecharMenu()">DEPOIMENTOS</a></li>
+            <li><a href="#contato" onclick="Menu.FecharMenu()">CONTATO</a></li>
         </ul>
     </header>
+
+    
 
     <img class="logo" src="./img/logo.png" alt="">
 
@@ -46,21 +49,18 @@
         <div class="perfil">
             <img class="img_perfil" src="./img/perfil.jpeg" alt="Imagem de perfil">
             <h3>Olá!<br>
-                É um enorme prazer falar um pouco sobre meu perfil profissional para você..
+                É um enorme prazer falar um pouco sobre meu perfil profissional para você.
             </h3>
             <h3 class="bem-vindos">Sejam muito bem vindos(as)!</h3>
             <h4>
                 <br>
-                Sou Karla Macedo,
-                Idealizadora da KM Consultoria,
-                Master Analista Comportamental pelo Instituto ILG, Assistente Social pela UNICAP, Especialista em Saúde
-                Mental e Gestão da Assistência Psicossocial pela IBRA, Especialista em Gestão Hospitalar pela FAMEC,
-                Especialista em Psicologia Organizacional pela ESUDA, com 20 anos de experiência no mercado de trabalho.
-                Atuei nos segmentos de tecnologia, área comercial, hotelaria, R&S, T&D, orientação profissional, serviço
-                social em área corporativa, hospitalar e atenção primária.
+                Sou Karla Macedo, idealizadora da KM Consultoria, Master Analista Comportamental pelo Instituto ILG, Assistente Social pela UNICAP, Especialista em Saúde Mental e Gestão da Assistência Psicossocial pela IBRA, Especialista em Gestão Hospitalar e Serviços de Saúde pela FAMEC, Especialista em Psicologia Organizacional pela ESUDA, com 20 anos de experiência no mercado de trabalho.
+
+                Atuei nos segmentos de tecnologia, área comercial, hotelaria, R&S, T&D, orientação profissional, serviço social em área corporativa, hospitalar e atenção primária.
 
             </h4>
             <br>
+            <h3 class="bem-vindos2">Sejam muito bem vindos(as)!</h3>
         </div>
         <img class="linha" src="./img/linha.png" alt="">
 
@@ -135,16 +135,12 @@
             <div class="text">
 
                 <h1>Quem Somos?</h1>
-                <p>Somos uma Consultoria especializada no<br> desenvolvimento humano,
-                    buscando inovação e atualização no que existe de melhor para oferecer
-                    ao nosso cliente. A KM Consultoria surgiu em 2014, através de atividades
-                    voluntárias.
+                <p>omos uma Consultoria especializada no desenvolvimento humano, buscando inovação e atualização no que existe de melhor para oferecer ao nosso cliente.
+
+                    A KM Consultoria surgiu em 2014, através de atividades voluntárias. Para nós, mais importante do que o retorno financeiro, é a diferença que fazemos na vida de cada cliente que vem para KM. Os pacotes de serviços oferecidos em nosso portfólio são: orientação profissional, reformulação de currículos e transição de carreira.
+                    
+                    Quer conhecer mais sobre a KM Consultoria? entra em contato conosco, será um prazer conhecer você.
                     <br>
-                    <br>
-                    <br>
-                    <br>
-                    Para nós, mais importante do que o retorno financeiro,
-                    é a diferença que fazemos na vida de cada cliente que vem para KM.
                 </p>
             </div>
 
@@ -338,45 +334,43 @@
     </main>
 
 
-    <div class="modal-overlay">
+    <div class="modal-menu">
+        <div class="menu-modal ">
+            <ul>
+                <!-- <li><a href="#">PERFIL</a></li> -->
+                <li><a href="#servico">SERVIÇOS</a></li>
+                <li><a href="#quemsomos">QUEM SOMOS</a></li>
+                <li><a href="#depoimentos">DEPOIMENTOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+            <a class="fechar-modal" href="#" onclick="Menu.FecharMenu()">Fechar</a>
+        </div>
+    </div>
+
+    <!-- <div class="modal-overlay">
         <div class="modal">
             <h2>Orientação Profissional:</h2>
             <p class="text-modal">
-                Para realização da orientação profissional buscamos entender melhor a realidade social,
-                famíliar e profissional do cliente, através de uma escuta qualificada, realizada por atendimento
-                virtual através de vídeo chamada, ou ligação telefônica a escolha do cliente.
-                Um dos principais beneficios que a orientação profissional pode proporcionar é o
-                autoconhecimento, pois conhecer bem a si mesmo ( a), a forma como agimos e reagimos em
-                determinadas situações, bem como nos comunicamos, é um ponto muito importante, sendo o
-                primeiro passo para uma escolha bem-sucedida em qualquer área.
-                Após obtermos os dados necessários referente a necessidade de cada cliente, realizamos o
-                mapeamento comportamental, onde utilizamos a aplicação de Assessments + DISC com
-                feedback, que são ferramentas consolidadas tanto na ciência como no mundo corporativo, a
-                qual nos ajudam a identificar o perfil comportamental, pontos fortes e de desenvolvimento de
-                cada cliente, visando melhoria da performance profissional.
+                Para realização da orientação profissional buscamos entender melhor a realidade social, famíliar e profissional do cliente, através de uma escuta qualificada, realizada por atendimento virtual, através de vídeo chamada, ou ligação telefônica a escolha do cliente.
+
+                Um dos principais beneficios que a orientação profissional pode proporcioar é o autoconhecimento, pois conhecer bem a si mesmo ( a), bem como nos comunicamos, é um ponto muito importante, sendo o primeiro passo para uma escolha bem-sucedida em qualquer área.
+
+
             </p>
             <a class="fechar-modal" href="#" onclick="Modal.close()">Fechar</a>
         </div>
-    </div>
+    </div> -->
 
     <div class="modal-two">
         <div class="modal">
             <h2>Transição de Carreira:</h2>
             <p class="text-modal">
-                Quando planejada, a transição de carreira é um processo que pode alavancar a vida
-                profissional, levando ao sucesso de sua carreira ou área escolhida mas para isso, é necessário
-                que cada escolha, cada passo dado, faça parte de um plano organizado e com objetivos
-                estratégicos.
-                Com o acompanhamento profissional, orientação, e análise de perfil corretos, a transição de
-                carreira proporciona ao cliente uma reavaliação de sua trajetória de vida, levando em
-                consideração seus sonhos e projetos para o futuro.
+                Quando planejada, a transição de carreira é um processo que pode alavancar a vida profissional, levando ao sucesso de sua carreira ou área escolhida mas para isso, é necessário que cada escolha, cada passo dado, faça parte de um plano organizado e com objetivos estratégicos.
 
-                Após obtermos os dados necessários referente a necessidade de cada cliente, realizamos o
-                mapeamento comportamental, onde utilizamos a aplicação de Assessments + DISC com
-                feedback, que são ferramentas consolidadas tanto na ciência como no mundo corporativo, a
+                Com o acompanhamento profissional, orientação, e análise de perfil corretos, a transição de carreira proporciona ao cliente uma reavaliação de sua trajetória de vida, levando em consideração seus sonhos e projetos para o futuro.
 
-                qual nos ajudam a identificar o perfil comportamental, pontos fortes e de desenvolvimento de
-                cada cliente, visando melhoria da performance profissional.
+
+                Após obtermos os dados necessários referente a necessidade de cada cliente, realizamos o mapeamento comportamental, onde utilizamos a aplicação de Assessments + DISC com feedback, que são ferramentas consolidadas tanto na ciência como no mundo corporativo, a qual nos ajuda a identificar o perfil comportamental, pontos fortes e de desenvolvimento de cada cliente, visando melhoria da performance profissional.
             </p>
             <a class="fechar-modal" href="#" onclick="Model2.closetwo()">Fechar</a>
         </div>
@@ -386,15 +380,10 @@
         <div class="modal">
             <h2>Reformulação de Currículo:</h2>
             <p class="text-modal">
-                O currículo é a porta de entrada para oportunidade tão desejada no mercado de trabalho e, se
-                bem estruturado, traz destaque, tornando-se uma potencial ferramenta no processo seletivo.
-                Deseja melhorar a estética do seu currículo e destacá-lo dos demais? A KM Consultoria pode
-                te ajudar! Vem conhecer os nossos serviços.
-                Para análise de currículo realizamos os seguintes serviços: Verificação da estética do currículo;
-                Reformulação; Orientação referente a formulação do currículo, Dicas de recrutamento e
-                seleção;
-                Orientação para entrevista de emprego; Simulação de entrevista de emprego; Feedback pós
-                simulação de entrevista.
+                O currículo é a porta de entrada para oportunidade tão desejada no mercado de trabalho e se bem estruturado, traz destaque, tornando-se uma potencial ferramenta no processo seletivo. Deseja melhorar a estética do seu currículo e destacá-lo dos demais? A KM Consultoria pode te ajudar! Vem conhecer os nossos serviços.
+
+
+                Para análise de currículo realizamos os seguintes serviços: Verificação da estética do currículo, reformulação, orientação referente a formulação do currículo, dicas de recrutamento e seleção, orientação para entrevista de emprego, simulação de entrevista de emprego, feedback pós simulação de entrevista.
             </p>
             <a class="fechar-modal" href="#" onclick="Model3.closethree()">Fechar</a>
         </div>
@@ -402,13 +391,11 @@
 
     <div class="modal-four">
         <div class="modal">
-            <h2>Consultoria:</h2>
+            <h2>Consultoria Organizacional:</h2>
             <p class="text-modal">
-                A Consultoria Organizacional é uma pestação de serviços especializados, em determinado
-                assunto, que visa auxiliar o cliente conforme a situação ou necessidade.
-                O consultor (a) vai ouvir, acolher, analisar, orientar e, através de seus conhecimentos e
-                habilidades, ajudar o cliente, na melhoria de sua performace profissional, objetivando
-                resultados satisfatorios.
+                A Consultoria Organizacional é uma pestação de serviços especializados, em determinado assunto, que visa auxiliar o cliente conforme a situação ou necessidade.
+
+                O consultor (a) vai ouvir, acolher, analisar, orientar e, através de seus conhecimentos e habilidades, ajudar o cliente, na melhoria de sua performace profissional, objetivando resultados satisfatorios.
             </p>
             <a class="fechar-modal" href="#" onclick="Model4.closefour()">Fechar</a>
         </div>
@@ -420,3 +407,4 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
+<script src="menu.js"></script>

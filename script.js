@@ -80,3 +80,16 @@ const Model4 = {
     }
 }
 
+const  Menu = {
+    AbrirMenu() {
+        document
+        .querySelector('.menu-mob') //pesquisa no documento por essa classe
+        .classList.add('active') //adiciona essa classe
+    },
+    FecharMenu() {
+        document
+        .querySelector('.menu-mob')
+        .classList.remove('active')
+    }
+}
+
